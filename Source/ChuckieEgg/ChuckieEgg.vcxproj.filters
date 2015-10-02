@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{564bc7ad-5875-4d4c-9eae-953aae504725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{cdda120a-0909-4662-a008-0f6958d216ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pawns">
+      <UniqueIdentifier>{6ecbd397-952e-4cc2-9b64-751985e71bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pawns">
+      <UniqueIdentifier>{63e82ce6-76c5-4da2-ac54-95dc640406fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Levels">
+      <UniqueIdentifier>{9c99ddaa-86aa-499b-9538-0194ed9c1db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{ea2d42a9-6f8e-469f-af83-7d0219c301f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{d3c5e652-625b-4507-8c4e-00d1a82c846b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sounds">
+      <UniqueIdentifier>{806df5d7-a1bb-458d-979c-4c9c401064b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{a497095c-fc65-49f9-b096-2f58b7616913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{f2166e72-0c58-4228-a917-a268c4de33d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{bbdd50cb-f353-4820-8136-5ce903707d2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ce_wall.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ce_ladder.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ce_egg.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ce_grain.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ce_player.cpp">
+      <Filter>Source Files\Pawns</Filter>
+    </ClCompile>
+    <ClCompile Include="ce_swan.cpp">
+      <Filter>Source Files\Pawns</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\ce_pawn.cpp">
+      <Filter>Source Files\Pawns</Filter>
+    </ClCompile>
+    <ClCompile Include="structures.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\collision.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ce_actor.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ce_object.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ce_wall_inv.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ce_wall.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ce_ladder.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ce_egg.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ce_grain.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ce_wall_inv.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ce_player.h">
+      <Filter>Header Files\Pawns</Filter>
+    </ClInclude>
+    <ClInclude Include="ce_swan.h">
+      <Filter>Header Files\Pawns</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\ce_pawn.h">
+      <Filter>Header Files\Pawns</Filter>
+    </ClInclude>
+    <ClInclude Include="structures.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\collision.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ce_actor.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ce_object.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="level_1.txt">
+      <Filter>Resource Files\Levels</Filter>
+    </None>
+    <None Include="level_2.txt">
+      <Filter>Resource Files\Levels</Filter>
+    </None>
+    <None Include="level_3.txt">
+      <Filter>Resource Files\Levels</Filter>
+    </None>
+    <None Include="level_4.txt">
+      <Filter>Resource Files\Levels</Filter>
+    </None>
+    <None Include="level_5.txt">
+      <Filter>Resource Files\Levels</Filter>
+    </None>
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\death.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </None>
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\pick_grain.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </None>
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\jump.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </None>
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\ladder.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </None>
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\pick_egg.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </None>
+    <None Include="blocks.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\swans.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\player.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\walk.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </None>
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\win.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </None>
+  </ItemGroup>
+</Project>

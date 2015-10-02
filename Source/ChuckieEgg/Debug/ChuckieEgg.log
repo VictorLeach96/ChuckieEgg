@@ -1,0 +1,85 @@
+﻿Build started 10/03/2015 13:13:20.
+     1>Project "\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\ChuckieEgg.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ChuckieEgg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt button.cpp ce_actor.cpp ce_egg.cpp ce_grain.cpp ce_ladder.cpp ce_player.cpp ce_swan.cpp ce_wall_inv.cpp game.cpp "H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\ce_pawn.cpp" "H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\collision.cpp" level.cpp main.cpp ce_object.cpp ce_wall.cpp menu.cpp structures.cpp
+         structures.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+         menu.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+         ce_wall.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+         ce_object.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+         level.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\level.cpp(45): warning C4018: '<' : signed/unsigned mismatch
+         collision.cpp
+     1>h:\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+         ce_pawn.cpp
+     1>h:\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\ce_pawn.cpp(28): warning C4018: '>=' : signed/unsigned mismatch
+     1>h:\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\ce_pawn.cpp(100): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\ce_pawn.cpp(110): warning C4018: '<' : signed/unsigned mismatch
+         game.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\game.cpp(62): warning C4018: '<' : signed/unsigned mismatch
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\game.cpp(157): warning C4018: '<' : signed/unsigned mismatch
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\game.cpp(270): warning C4018: '<' : signed/unsigned mismatch
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\game.cpp(271): warning C4018: '<' : signed/unsigned mismatch
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\game.cpp(289): warning C4018: '<' : signed/unsigned mismatch
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\game.cpp(301): warning C4018: '<' : signed/unsigned mismatch
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\game.cpp(347): warning C4018: '<' : signed/unsigned mismatch
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\game.cpp(360): warning C4018: '<' : signed/unsigned mismatch
+         ce_wall_inv.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+         ce_swan.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\ce_swan.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+         ce_player.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\ce_player.cpp(8): warning C4018: '<' : signed/unsigned mismatch
+         ce_ladder.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+         ce_grain.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+         ce_egg.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+         ce_actor.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+         button.cpp
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7671967\visual studio 2010\projects\assignments\chuckieegg\chuckieegg\menu.h(19): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\Debug\ChuckieEgg.exe" /NOLOGO alld.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ChuckieEgg.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\Debug\ChuckieEgg.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\Debug\ChuckieEgg.lib" /MACHINE:X86 Debug\button.obj
+         Debug\ce_actor.obj
+         Debug\ce_egg.obj
+         Debug\ce_grain.obj
+         Debug\ce_ladder.obj
+         Debug\ce_player.obj
+         Debug\ce_swan.obj
+         Debug\ce_wall_inv.obj
+         Debug\game.obj
+         Debug\ce_pawn.obj
+         Debug\collision.obj
+         Debug\level.obj
+         Debug\main.obj
+         Debug\ce_object.obj
+         Debug\ce_wall.obj
+         Debug\menu.obj
+         Debug\structures.obj
+         ChuckieEgg.vcxproj -> \\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\Debug\ChuckieEgg.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\Debug\ChuckieEgg.exe;#1" /manifest Debug\ChuckieEgg.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ChuckieEgg.unsuccessfulbuild".
+         Touching "Debug\ChuckieEgg.lastbuildstate".
+     1>Done Building Project "\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\ChuckieEgg.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.63

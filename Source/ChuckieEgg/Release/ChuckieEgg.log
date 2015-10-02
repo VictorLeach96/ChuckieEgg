@@ -1,0 +1,69 @@
+﻿Build started 10/03/2015 13:13:01.
+     1>Project "\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\ChuckieEgg.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\Release\".
+       InitializeBuildStatus:
+         Touching "Release\ChuckieEgg.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\Release\ChuckieEgg.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ChuckieEgg.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\Release\ChuckieEgg.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\Release\ChuckieEgg.lib" /MACHINE:X86 Release\button.obj
+         Release\ce_actor.obj
+         Release\ce_egg.obj
+         Release\ce_grain.obj
+         Release\ce_ladder.obj
+         Release\ce_player.obj
+         Release\ce_swan.obj
+         Release\ce_wall_inv.obj
+         Release\game.obj
+         Release\ce_pawn.obj
+         Release\collision.obj
+         Release\level.obj
+         Release\main.obj
+         Release\ce_object.obj
+         Release\ce_wall.obj
+         Release\menu.obj
+         Release\structures.obj
+     1>button.obj : error LNK2001: unresolved external symbol __imp__create_bitmap
+     1>button.obj : error LNK2001: unresolved external symbol __imp__destroy_bitmap
+     1>button.obj : error LNK2001: unresolved external symbol __imp__makecol
+     1>button.obj : error LNK2001: unresolved external symbol __imp__text_height
+     1>button.obj : error LNK2001: unresolved external symbol __imp__text_length
+     1>button.obj : error LNK2001: unresolved external symbol __imp__textout_ex
+     1>button.obj : error LNK2001: unresolved external symbol __imp__blit
+     1>button.obj : error LNK2001: unresolved external symbol __imp__font
+     1>button.obj : error LNK2001: unresolved external symbol __imp__stretch_blit
+     1>button.obj : error LNK2001: unresolved external symbol __imp__clear_to_color
+     1>ce_player.obj : error LNK2001: unresolved external symbol __imp__play_sample
+     1>game.obj : error LNK2001: unresolved external symbol __imp__install_int_ex
+     1>game.obj : error LNK2001: unresolved external symbol __imp__clear_bitmap
+     1>game.obj : error LNK2001: unresolved external symbol __imp__screen
+     1>game.obj : error LNK2001: unresolved external symbol __imp__load_sample
+     1>game.obj : error LNK2001: unresolved external symbol __imp__stop_sample
+     1>game.obj : error LNK2001: unresolved external symbol __imp__rest
+     1>game.obj : error LNK2001: unresolved external symbol __imp__load_bitmap
+     1>game.obj : error LNK2001: unresolved external symbol __imp__gfx_driver
+     1>game.obj : error LNK2001: unresolved external symbol __imp__key
+     1>game.obj : error LNK2001: unresolved external symbol __imp__rect
+     1>main.obj : error LNK2001: unresolved external symbol __imp___WinMain
+     1>main.obj : error LNK2001: unresolved external symbol __imp__install_keyboard
+     1>main.obj : error LNK2001: unresolved external symbol __imp__install_timer
+     1>main.obj : error LNK2001: unresolved external symbol __imp__set_color_depth
+     1>main.obj : error LNK2001: unresolved external symbol __imp__set_close_button_callback
+     1>main.obj : error LNK2001: unresolved external symbol __imp__install_mouse
+     1>main.obj : error LNK2001: unresolved external symbol __imp___install_allegro_version_check
+     1>main.obj : error LNK2001: unresolved external symbol __imp__install_sound
+     1>main.obj : error LNK2001: unresolved external symbol __imp__allegro_exit
+     1>main.obj : error LNK2001: unresolved external symbol __imp__set_gfx_mode
+     1>main.obj : error LNK2001: unresolved external symbol __imp__set_window_title
+     1>ce_object.obj : error LNK2001: unresolved external symbol __imp__masked_blit
+     1>menu.obj : error LNK2001: unresolved external symbol __imp__mouse_x
+     1>menu.obj : error LNK2001: unresolved external symbol __imp__mouse_y
+     1>menu.obj : error LNK2001: unresolved external symbol __imp__destroy_sample
+     1>menu.obj : error LNK2001: unresolved external symbol __imp__mouse_b
+     1>\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\Release\ChuckieEgg.exe : fatal error LNK1120: 37 unresolved externals
+     1>Done Building Project "\\bournemouth.ac.uk\data\Student\Home\DEC\i7671967\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\ChuckieEgg.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.43

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B4366FAB-4364-4105-AD48-7704178C9C07}</ProjectGuid>
+    <RootNamespace>ChuckieEgg</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>alld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="ce_actor.cpp" />
+    <ClCompile Include="ce_egg.cpp" />
+    <ClCompile Include="ce_grain.cpp" />
+    <ClCompile Include="ce_ladder.cpp" />
+    <ClCompile Include="ce_player.cpp" />
+    <ClCompile Include="ce_swan.cpp" />
+    <ClCompile Include="ce_wall_inv.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\ce_pawn.cpp" />
+    <ClCompile Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\collision.cpp" />
+    <ClCompile Include="level.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ce_object.cpp" />
+    <ClCompile Include="ce_wall.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="structures.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="button.h" />
+    <ClInclude Include="ce_actor.h" />
+    <ClInclude Include="ce_egg.h" />
+    <ClInclude Include="ce_grain.h" />
+    <ClInclude Include="ce_ladder.h" />
+    <ClInclude Include="ce_player.h" />
+    <ClInclude Include="ce_swan.h" />
+    <ClInclude Include="ce_wall_inv.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\ce_pawn.h" />
+    <ClInclude Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\collision.h" />
+    <ClInclude Include="header.h" />
+    <ClInclude Include="level.h" />
+    <ClInclude Include="ce_object.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="structures.h" />
+    <ClInclude Include="ce_wall.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="blocks.bmp" />
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\win.wav" />
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\death.wav" />
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\jump.wav" />
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\ladder.wav" />
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\pick_egg.wav" />
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\pick_grain.wav" />
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\player.bmp" />
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\swans.bmp" />
+    <None Include="H:\Visual Studio 2010\Projects\ASSIGNMENTS\ChuckieEgg\ChuckieEgg\walk.wav" />
+    <None Include="level_1.txt" />
+    <None Include="level_2.txt" />
+    <None Include="level_3.txt" />
+    <None Include="level_4.txt" />
+    <None Include="level_5.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
